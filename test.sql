@@ -1,2 +1,1 @@
-SELECT id
-FROM northwind.orders;
+SELECT id FROM northwind.orders;
