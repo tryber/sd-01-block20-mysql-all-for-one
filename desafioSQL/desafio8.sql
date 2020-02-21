@@ -5,6 +5,6 @@ CREATE TABLE IF NOT EXISTS Trybe.goTrybe (
     `eh` INT
 );
 INSERT INTO Trybe.goTrybe VALUES
-	(5+6, 'de', 2+8);
+(5+6, 'de', 2+8);
 
 -- SELECT * FROM Trybe.goTrybe;
