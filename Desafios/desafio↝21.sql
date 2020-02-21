@@ -4,6 +4,4 @@
 # date_allocated: NULL, purchase_order_id: NULL e inventory_id: 129 
 #(o Id deve ser incrementado automaticamente).
 
-INSERT INTO order_details (order_id, product_id,unit_price,discount,status_id,date_allocated,purchase_order_id,inventory_id)
-    VALUES (69, 80,150000,0,2,NULL,NULL,129),
-           (69, 80,150000,0,2,NULL,NULL,129);
+INSERT INTO order_details (order_id, product_id, unit_price, discount, status_id, date_allocated, purchase_order_id, inventory_id) VALUES (69, 80, 150000, 0, 2, NULL, NULL, 129), (69, 80, 150000, 0,2, NULL, NULL, 129);

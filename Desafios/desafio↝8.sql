@@ -8,4 +8,5 @@
 SELECT 5+6 AS "A", "de" AS "Trybe", 2+8 AS "eh";
 
 CREATE TABLE Doug (A INT (200),	Trybe VARCHAR(200), eh INT (200) );
+
 INSERT INTO Doug (A, Trybe, eh) VALUES (5+6, "de", 2+8);
