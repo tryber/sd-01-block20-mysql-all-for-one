@@ -5,6 +5,5 @@ CREATE TABLE northwind.Antonio (
 );
 
 INSERT INTO northwind.Antonio VALUES ((5+6), 'de', (2+8));
-SELECT * FROM northwind.Antonio;
 
 
