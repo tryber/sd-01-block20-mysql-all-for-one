@@ -126,7 +126,7 @@ Monte queries para encontrar as seguintes informações:
 10. Mostre todos os dados da tabela `purchase_orders` em ordem decrescente ordenados por `created_by` onde `created_by` é maior ou igual a 3.
 11. Exiba os dados de `notes` da tabela `purchase_orders` e mostre apenas os dados de `notes` entre 30 a 39.
 12. Mostre as datas (`submitted_date`) de `purchase_orders` onde `submitted_date` é do dia 14 do mês de janeiro do ano 2006.
-13. Mostre o `supplier_id` das `purchase_orders` onde o `supplier_id` sejam 1 ou 3.
+13. Mostre o `supplier_id` das `purchase_orders` onde o `supplier_id` seja 1 ou 3.
 14. Mostre os `supplier_id` da `purchase_orders` onde o `supplier_id` sejam 1 a 3.
 15. Mostre somente as horas da `submitted_date` de todos registros de `purchase_orders`.
 16. Exiba a `submitted_date` das `purchase_orders` que estão entre 2006-01-26 00:00:00 a 2006-03-27 23:59:59.
