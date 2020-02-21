@@ -132,7 +132,7 @@ Monte queries para encontrar as seguintes informações:
 16. Exiba a `submitted_date` das `purchase_orders` que estão entre 2006-01-26 00:00:00 a 2006-03-27 23:59:59.
 17. Mostre os dados do `supplier_id` das `purchase_orders` em que os `supplier_id` sejam tanto 1 ou 6.
 18. Mostre quais dados de purchase_orders tem `suplier_id` igual a 3 e `status_id` igual a 2.
-19. Descubra quantos pedidos foram feitos onde os pedidos foram feitos pelo empregador com o `employee_id` 6 ou 5 e que tenham sidos enviados via o método com `shipper_id` igual a 2.
+19. Quantos pedidos foram feitos na tabela `orders` pelo `employee_id` 6 ou 5, e que foram enviados através do método `shipper_id` 2?
 
 ---
 
