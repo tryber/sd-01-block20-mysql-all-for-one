@@ -114,7 +114,7 @@ Monte queries para encontrar as seguintes informações:
 3. Escreva uma query que mostre a coluna que representa a primary key da tabela `products`.
 4. Conte quantos registros existem em `product_name` de `products`.
 5. Monte uma query que exiba os registros da tabela `products` de 4 a 13, não use `where` ou `order by`.
-6. Mostre a linha de `product_name` junto ao `ID` de `products` de maneira que os resultados estejam em ordem alfabética dos nomes.
+6. Mostre as colunas `product_name` e `ID` da tabela `products` de maneira que os resultados estejam em ordem alfabética dos nomes.
 7. Mostre os 5 primeiros registros da coluna `id` da tabela `products`, quando esta está em ordem decrescente.
 8. Crie uma tabela que tenha 3 colunas. Na primeira coluna, adicione somatória de 5+6 (esta somatória deve ser realizada pelo SQL). Na segunda coluna deve haver a palavra "de". E por fim, na terceira coluna a somatória de 2+8 (esta somatória deve ser realizada pelo SQL) deve ser exibida. A primeira coluna deve se chamar "A", a segunda coluna deve se chamar "Trybe" e a terceira coluna deve se chamar "eh".
 
@@ -123,16 +123,16 @@ Monte queries para encontrar as seguintes informações:
 ## Desafios sobre filtragem de dados
 
 9. Mostre todos os valores de `notes` da tabela `purchase_orders` que não são nulos.
-10. Mostre todos os dados em ordem decrescente ordenados por `created_by` onde `created_by` é maior ou igual a 3.
+10. Mostre todos os dados da tabela `purchase_orders` em ordem decrescente ordenados por `created_by` onde `created_by` é maior ou igual a 3.
 11. Exiba os dados de `notes` da tabela `purchase_orders` e mostre apenas os dados de `notes` entre 30 a 39.
 12. Mostre as datas (`submitted_date`) de `purchase_orders` onde `submitted_date` é do dia 14 do mês de janeiro do ano 2006.
-13. Mostre o `supplier_id` das `purchase_orders` onde o `supplier_id` sejam 1, e 3.
+13. Mostre o `supplier_id` das `purchase_orders` onde o `supplier_id` seja 1 ou 3.
 14. Mostre os `supplier_id` da `purchase_orders` onde o `supplier_id` sejam 1 a 3.
 15. Mostre somente as horas da `submitted_date` de todos registros de `purchase_orders`.
 16. Exiba a `submitted_date` das `purchase_orders` que estão entre 2006-01-26 00:00:00 a 2006-03-27 23:59:59.
 17. Mostre os dados do `supplier_id` das `purchase_orders` em que os `supplier_id` sejam tanto 1 ou 6.
-18. Mostre quais dados de purchase_orders tem `suplier_id` igual a 3 e `type` igual a done.
-19. Descubra quantos pedidos foram feitos onde os pedidos foram feitos pelo empregador com o `EmployeeID` 6 ou 5 e que tenham sidos enviados via o método 2.
+18. Mostre quais dados de purchase_orders tem `suplier_id` igual a 3 e `status_id` igual a 2.
+19. Quantos pedidos foram feitos na tabela `orders` pelo `employee_id` 6 ou 5, e que foram enviados através do método `shipper_id` 2?
 
 ---
 
