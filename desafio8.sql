@@ -4,4 +4,4 @@ CREATE TABLE northwind.tabela (
   eh INT NOT NULL,
   PRIMARY KEY (A));
 INSERT INTO northwind.tabela (A, Trybe, eh) VALUES
-	(5+6, 'de', 2+8);
+(5+6, 'de', 2+8);
