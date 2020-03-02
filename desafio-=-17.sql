@@ -1,2 +1,2 @@
 SELECT (supplier_id) FROM northwind.purchase_orders
-  WHERE supplier_id in (1, 6);
+  WHERE supplier_id BETWEEN 1 AND 6;
